@@ -4,4 +4,61 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #4c4c4c;
+  overflow-x: hidden;
+
 }
+
+.bg-modern-gray {
+  background-color: #e0e0e0;
+}
+
+.bg-modern-dark {
+  /* background-color: #5c5c5c; */
+  background-color: #8c8c8c;
+  /* border: 1px solid rgb(93, 93, 93) !important; */
+}
+
+.bg-modern-light {
+  background-color: #f7f7f7;
+}
+
+.bg-modern-accent {
+  /* background-color: #4caf50; */
+  background-color: transparent;
+}
+
+.bg-modern-charcoal {
+  background-color: #333333;
+}
+
+.text-modern-charcoal {
+  color: #333333;
+}
+
+.text-modern-dark {
+  color: #2c2c2c;
+}
+
+.text-modern-light {
+  color: #ffffff;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+/* 
+.mouse-gradient {
+  width: 30rem;
+  height: 30rem;
+  background: linear-gradient(135deg, #3b82f6, #9333ea);
+  filter: blur(100px);
+  opacity: 0.7;
+  pointer-events: none;
+} */
